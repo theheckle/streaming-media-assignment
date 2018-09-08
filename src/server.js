@@ -18,7 +18,7 @@ const onRequest = (request, response) => {
       mediaHandler.getBling(request, response);
       break;
     case '/bird.mp4':
-      mediaHandler.getParty(request, response);
+      mediaHandler.getBird(request, response);
       break;
     default:
       htmlHandler.getIndex(request, response);

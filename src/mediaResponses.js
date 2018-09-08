@@ -69,4 +69,3 @@ const getBird = (request, response) => {
 module.exports.getParty = getParty;
 module.exports.getBling = getBling;
 module.exports.getBird = getBird;
-
